@@ -21,7 +21,7 @@ lab_programs/
 7. Run ONE app at a time (each opens in the browser):
    streamlit run Q6_secure_messaging_e2ee/app.py
    streamlit run Q7_hashing_obfuscation/app.py
-   streamlit run Q8_signatures_auth_jwt/app.py
+   
    Stop with Ctrl+C. To run two at once, add --server.port 8502 to the second command.
 
 Ports used internally: Q6 TLS relay 8443, Q8 Flask API 5008 (close the other Q6/Q8 run if "address in use").
